@@ -1,0 +1,9 @@
+.macro-container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-size: 4.5rem;
+}

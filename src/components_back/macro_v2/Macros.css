@@ -1,0 +1,22 @@
+.macros {
+  display: flex;
+  padding: 0.5rem;
+  margin: 1rem;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.macros-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1rem;
+
+  
+}
+
+.macros-button button { 
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}

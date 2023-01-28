@@ -1,0 +1,45 @@
+.form-main {
+  background-color: #a892ee;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 20rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.form-controls {
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
+
+.form-control input {
+  font: inherit;
+  margin: .25rem 2.5rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+  max-width: 100%;
+}
+
+.form-radio {
+  font: inherit;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+.form-radio label {
+  margin: 1rem;
+}
+
+.form-button button {
+  font-size: inherit;
+  border-radius: 0.25rem;
+}

@@ -1,0 +1,21 @@
+.macro-item {
+  border: .25rem solid black;
+  border-radius: .5rem;
+  padding: 1rem;
+  text-align: center;
+  width: 12rem;
+  box-shadow: 0 2px 8px rgba(236, 232, 232, 0.25);
+  background-color: lightblue;
+}
+
+.protien-item {
+  background-color: pink;
+}
+
+.fat-item {
+  background-color: lightblue 0;
+}
+
+.carb-item {
+  background-color: orange 0;
+}

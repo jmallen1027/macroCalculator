@@ -1,0 +1,5 @@
+.macro-item {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column;
+}

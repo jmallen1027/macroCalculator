@@ -1,0 +1,26 @@
+.calories-form {
+    padding: .5rem;
+    margin: 1rem auto;
+    width: 50rem;
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.calorie-text {
+    border-radius: .75rem;
+    font-size: 1.5rem;
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+
+}
+
+.calories-form button {
+    width: 10rem;
+    border-radius: .75rem;
+    text-align: center;
+  
+
+
+}

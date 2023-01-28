@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import CaloriesForm from "./components/calories/CaloriesForm";
+import "./components/calories/Calories.css";
+import Macros from "./components/macros/Macros";
+import "./Display.css"
 
-function App() {
+
+
+
+
+import BmrCalculator from "./components/bmrCalculator/BmrCalculator";
+
+const App = () => {
+
+
+  const [calories, setCalories] = useState(0);
+
+  const changeCalorieHandler = (updatedCalories) => {
+    setCalories(updatedCalories);
+  };
+
+  console.log("Rendering App");
+  console.log(calories);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BmrCalculator onSetCalories={changeCalorieHandler}/>
+      <h1 className="calories">{calories}</h1>
+      <CaloriesForm
+
+      
+        onChangeCalories={changeCalorieHandler}
+      />
+      
+   
+        <Macros name={calories} />
+
     </div>
+    
   );
-}
+};
 
 export default App;
